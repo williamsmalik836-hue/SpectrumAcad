@@ -91,7 +91,7 @@ button {
 @media screen and (max-width: 480px) {
   body {
     background: linear-gradient(to right, #c4c4c4, #f4f4f4);
-    overflow: hidden;
+    overflow:none;
   }
   .heading {
     width: 100vw;
@@ -108,7 +108,7 @@ button {
     background-color: #cfcfcf;
   }
   .sideNav li {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
   }
   .formcom {
@@ -122,4 +122,8 @@ button {
     margin-left: 60%;
     background-color: darkgrey;
   }
+  .comment{
+    width:200px;
+  }
 }
+
