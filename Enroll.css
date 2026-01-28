@@ -74,7 +74,7 @@ body {
 .comment {
   margin-top: 20px;
   margin-left: 6px;
-  max-width: 350px;
+  max-width: inherit;
 }
 .comment textarea {
   text-align: center;
@@ -97,33 +97,37 @@ button {
     width: 100vw;
   }
   .heading span {
-    font-size: 1rem;
+    font-size: 3vw;
   }
   .container {
     height: auto;
   }
   .sideNav {
     display: grid;
-    max-width: 30vw;
-    background-color: #cfcfcf;
+    max-width: 70vw;
+    background-color:lightcyan;
+    width:70;
   }
   .sideNav li {
     font-size: 0.7rem;
     font-weight: 600;
+    margin-left:2px;
   }
   .formcom {
     height: auto;
   }
   section {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 8%;
   }
   button {
     margin-left: 60%;
     background-color: darkgrey;
   }
-  .comment{
-    width:200px;
+  .commen textarea{
+    width:230px;
+    max-height:200px;
   }
 }
+
 
