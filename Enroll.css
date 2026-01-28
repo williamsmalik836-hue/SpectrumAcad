@@ -117,7 +117,7 @@ button {
     height: auto;
   }
   section {
-    font-size: 0.8rem;
+    font-size: 0.6;
     margin-top: 8%;
   }
   button {
@@ -129,6 +129,7 @@ button {
     max-height:200px;
   }
 }
+
 
 
 
