@@ -105,13 +105,14 @@ button {
   .sideNav {
     display: grid;
     max-width: 70vw;
-    background-color:lightcyan;
+    background-color:darkcyan;
     width:70;
   }
   .sideNav li {
-    font-size: 0.7rem;
+    font-size:2vw;
     font-weight: 600;
     margin-left:2px;
+    color:white;
   }
   .formcom {
     height: auto;
@@ -129,6 +130,7 @@ button {
     max-height:200px;
   }
 }
+
 
 
 
