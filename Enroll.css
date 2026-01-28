@@ -125,10 +125,11 @@ button {
     background-color: darkgrey;
   }
   .commen textarea{
-    width:200px;
+    width:100px;
     max-height:200px;
   }
 }
+
 
 
 
