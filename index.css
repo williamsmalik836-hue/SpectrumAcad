@@ -1,7 +1,11 @@
+html,
+body {
+  max-width: 100%;
+}
 * {
   padding: 0;
   box-sizing: border-box;
-  margin: 0%;
+  margin: 0;
 }
 body {
   background-color: grey;
@@ -29,6 +33,11 @@ body {
   line-height: 85px;
   margin: 0 auto;
   cursor: pointer;
+  margin-left: 5vw;
+}
+.heading li {
+  display: flex;
+  text-align: center;
 }
 .schImage img {
   width: 75%;
@@ -51,4 +60,41 @@ body {
   font-style: italic;
   margin-top: 10px;
   color: aliceblue;
+}
+@media screen and (max-width: 480px) {
+  .container {
+  }
+  body {
+    background: linear-gradient(to right, #ccc, #f6f6f6);
+  }
+  .heading {
+    /* font-size: 0.9rem; */
+    /* font-weight: 600; */
+    display: block;
+    height: 18vh;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+  }
+  .heading img {
+  }
+  .heading span {
+    color: purple;
+  }
+  .heading p {
+    display: flex;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -3vh;
+    margin-left: 8%;
+  }
+  .heading li {
+    display: flex;
+  }
+  .schImage {
+    max-width: fit-content;
+  }
+  .purpose {
+    font-size: 2rem;
+    color: indianred;
+  }
 }

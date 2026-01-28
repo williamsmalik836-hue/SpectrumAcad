@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(to right, orange, whitesmoke, skyblue);
+  background-image: linear-gradient(to right, #c4c4c4, #cfeacf, #d7f7d7);
+  color: black;
 }
 .heading {
   height: 80px;
   width: 100vw;
   background-color: white;
   display: flex;
+  position: inherit;
 }
 .heading img {
   height: 30px;
@@ -23,12 +25,13 @@ body {
   text-transform: uppercase;
   line-height: 85px;
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 .heading p {
   line-height: 85px;
   margin: 0 auto;
   cursor: pointer;
+  color: blue;
 }
 .aspirantInfo img {
   width: 10%;
@@ -36,13 +39,19 @@ body {
   margin: 0 auto;
   display: block;
   margin-top: 10px;
+  color: white;
 }
 .aspirantInfo p {
-  font-size: 25px;
+  font-size: 2.3rem;
   text-align: center;
   margin: 5px;
 }
 .listItem {
-  font-size: 19px;
+  font-size: 2.3rem;
   margin: 40px;
+}
+button {
+  padding: 6px 3px;
+  background-color: black;
+  color: white;
 }

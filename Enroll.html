@@ -4,14 +4,14 @@
     <title>Enroll page</title>
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=not"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=yes"
     />
-    <link rel="stylesheet" href="/Enroll.css">
+    <link rel="stylesheet" href="CSS files/Enroll.css">
   </head>
-
-  <div class="container">
+<body>
+    <div class="container">
     <div class="heading">
-    <img src="logo9.png" alt="Logo"></span>
+    <img src="images/logo9.png" alt="Logo"></span>
         
     <span>Spectrum Academy</span>
     <p> <a href="index.html" style="text-decoration: none;
@@ -24,7 +24,7 @@
     <div class="sideNav">
       
       <ul>
-        <li> <a href="Requirement.html" style="text-decoration: none;"> Aspirants Requirement</a></li> 
+        <li> <a href="requirement.html" style="text-decoration: none;"> Aspirants Requirement</a></li> 
         <li> Students Page </a></li> 
         <li style="font-size:15px ;"> <i> For more information about Admission  Or complaint,</i>
           <p>Call: +2348024095231 <br>
@@ -34,15 +34,19 @@
       </ul>
     </div>
     <div class="formcom">
+      <form action="">
     <div class="form">
-        <input type="text" placeholder="Name"> <br>
-        <p> <img src="location.svg" alt="">  <br>
-           <input type="" placeholder="Address" ></p>
+        <input type="text" placeholder="Name" required> <br>
+        <p> <img src="images/location.svg" alt="">  <br>
+           <input type="" placeholder="Address" required></p>
     </div> <br>
-    <p> <input type="checkbox">
+    <p> <input type="checkbox" required>
      <I style="color:blue;">I am sure of the details given.</I>
     </p>
-    
+    <label for="input">Add a Passport</label><br>
+      <input type="file" required>
+      
+
     <div   class="comment" >
       <p style="color: aliceblue;">
         Why choose Spectrum Academy?
@@ -53,15 +57,15 @@
        required> 
       </textarea>
     </div>
-     <button for="submit" 
-     onclick="alert('Submitted');" >Submit</button>  <br> <br>
-    <hr style="border-color: red; width: 93%;">
-    Note: All details should be carefully and thoroughly checked before submission, <br> As they will be Uploaded immediately after Database confirmation.
+     <button type="submit" >Submit</button>  <br> <br> <br>
+    <hr style="border-color: red; width: 93%;"></form>
+    <section>
+    <b>⚠ Note: All details should be carefully and thoroughly checked before submission, <br> As they will be Uploaded immediately after Database confirmation. </b>
+    </section>
   </div>
   
   </div>
 </div>
   </div>
+  </body>
 </html>
-
-

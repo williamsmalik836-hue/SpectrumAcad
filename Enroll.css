@@ -3,12 +3,15 @@
   box-sizing: border-box;
   margin: 0%;
 }
+/* * { */
+/* outline: 1px solid red !important; */
+/* } */
 body {
-  background-color: grey;
+  background-color: aliceblue;
 }
 .heading {
   height: 80px;
-  width: 100vw;
+  width: 100%;
   background-color: #fff;
   display: flex;
 }
@@ -32,12 +35,13 @@ body {
 }
 .overflow {
   display: flex;
+  height: inherit;
 }
 
 .sideNav {
   width: 29vw;
   height: 100vh;
-  background-color: aqua;
+  background-color: lightcyan;
 }
 .sideNav ul {
   text-align: left;
@@ -70,7 +74,7 @@ body {
 .comment {
   margin-top: 20px;
   margin-left: 6px;
-  max-width: 400px;
+  max-width: 350px;
 }
 .comment textarea {
   text-align: center;
@@ -80,6 +84,42 @@ body {
 button {
   background-color: rebeccapurple;
   color: white;
-  padding: 4px 5px;
+  padding: 6px 5px;
   border-radius: 9px;
+  margin-top: 3%;
+}
+@media screen and (max-width: 480px) {
+  body {
+    background: linear-gradient(to right, #c4c4c4, #f4f4f4);
+    overflow: hidden;
+  }
+  .heading {
+    width: 100vw;
+  }
+  .heading span {
+    font-size: 1rem;
+  }
+  .container {
+    height: auto;
+  }
+  .sideNav {
+    display: grid;
+    max-width: 30vw;
+    background-color: #cfcfcf;
+  }
+  .sideNav li {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .formcom {
+    height: auto;
+  }
+  section {
+    font-size: 1.2rem;
+    margin-top: 8%;
+  }
+  button {
+    margin-left: 60%;
+    background-color: darkgrey;
+  }
 }
