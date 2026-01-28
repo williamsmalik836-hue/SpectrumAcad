@@ -116,7 +116,7 @@ button {
   .formcom {
     height: auto;
   }
-  section {
+  section b {
     font-size: 0.5rem;
     margin-top: 8%;
   }
@@ -125,10 +125,11 @@ button {
     background-color: darkgrey;
   }
   .comment textarea{
-    width:230px;
+    width:220px;
     max-height:200px;
   }
 }
+
 
 
 
